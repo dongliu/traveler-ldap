@@ -22,3 +22,5 @@ This admin account will also be used by traveler for ldap interactions.
 You can add or modify user records in the web interface easily.
 
 The `seed/traveler.ldif` file will be loaded by the `slapd` when it
+
+You can find the initial users including their uid and password in `seed/traveler.ldif`. 

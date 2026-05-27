@@ -5,7 +5,7 @@ networks:
     name: traveler-dev
 services:
   ldap-service:
-    image: osixia/openldap:1.2.1
+    image: osixia/openldap:1.2.4
     command: --copy-service
     volumes:
       - ./seed:/container/service/slapd/assets/config/bootstrap/ldif/custom

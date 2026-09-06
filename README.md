@@ -19,7 +19,7 @@ If not, run the following in your console to create the network.
 docker network create -d bridge --subnet 172.18.1.0/24 traveler-dev
 ```
 
-run `docker-compose up` to start the containers. The images will be downloaded and initialize for the first time run.
+run `docker compose up` to start the containers. The images will be downloaded and initialize for the first time run.
 
 You can check the state of the openladp service via the php ldap admin web
 <https://localhost:6443> .

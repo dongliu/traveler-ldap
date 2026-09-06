@@ -76,3 +76,37 @@ sn: Jarosz
 uid: dariusz
 userpassword: password
 
+# Entry 7: uid=joe,dc=example,dc=org
+dn: uid=joe,dc=example,dc=org
+cn: Joe Z
+displayname: Joe Z
+employeenumber: 1004
+employeetype: Engineer
+givenname: Joe
+homephone: 2061234567
+mail: joe@example.com
+o: Traveler
+objectclass: inetOrgPerson
+objectclass: top
+ou: Engineering
+sn: Z
+uid: joe
+userpassword: password
+
+# Entry 8: uid=kunal,dc=example,dc=org
+dn: uid=kunal,dc=example,dc=org
+cn: Kunal S
+displayname: Kunal S
+employeenumber: 1005
+employeetype: Engineer
+givenname: Kunal
+homephone: 2061234567
+mail: kunal@example.com
+o: Traveler
+objectclass: inetOrgPerson
+objectclass: top
+ou: Engineering
+sn: S
+uid: kunal
+userpassword: password
+
